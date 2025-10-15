@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Minesweeper React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project consists of a browser-based implementation of the classic Minesweeper game, developed using React JS.
 
-## Available Scripts
+## Project Overview
+The goal of this project is to recreate the **Minesweeper** experience in a browser environment using only **React functional components** and **custom CSS**.  
+It emphasizes clear code structure, efficient state management, and a responsive user interface.
 
-In the project directory, you can run:
+This project served as a way to deepen understanding of **React hooks**, **event handling**, and **recursive algorithms** for managing complex game logic.
 
-### `npm start`
+## Technologies Used
+- **React 18** – Component-based UI framework  
+- **JavaScript (ES6+)** – Game logic and interactivity  
+- **HTML5** – Page structure and semantic layout  
+- **CSS3** – Styling 
+- **Node.js & npm** – Development environment and package management 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Implemented Features
+- **Random board generation** — Unique mine layouts each time the game starts  
+- **Left-click actions** — Reveal cells and display the number of adjacent mines  
+- **Right-click actions** — Mark and unmark potential mine locations (🚩 and ❓)  
+- **Recursive expansion** — Automatically reveals neighboring empty areas  
+- **Multiple difficulty levels:**
+  - Beginner — 9×9 grid, 10 mines  
+  - Intermediate — 16×16 grid, 40 mines  
+  - Advanced — 30×16 grid, 99 mines  
+- **Game timer** — Tracks how long you’ve been playing  
+- **Mine counter** — Displays remaining mines  
+- **Game-over detection** — Automatically ends the game when a mine is clicked or all are flagged  
+- **Restart button** — Instantly reset the board for a new round   
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Como executar
+```bash
+npm install
+npm start
+```
 
-### `npm test`
+## Live Demo
+You can view the website here:  
+[Minesweeper React](https://tomaspaivaa.github.io/Minesweeper-React/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*This work was completed as part of the “Script Languages” course during the 2023/2024 academic year.*
