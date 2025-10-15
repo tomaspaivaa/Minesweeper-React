@@ -1,0 +1,21 @@
+.slots {
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: red;
+  background: green;
+}
+.slots.dark {
+  background: rgb(122, 122, 122);
+}
+.slots.light {
+  background: rgb(209, 209, 209);
+}
+
+.slots.hidden.dark {
+  background-color: rgba(251, 146, 41, 0.583);
+}
+.slots.hidden.light {
+  background-color: rgb(251, 146, 41);
+}
