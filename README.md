@@ -41,4 +41,4 @@ You can view the website here:
 
 ---
 
-*This work was completed as part of the “Script Languages” course during the 2023/2024 academic year.*
+*This work was completed as part of the “Script Languages” course during the 2023/2024 academic year. (Grade: 9 out of 10)*
